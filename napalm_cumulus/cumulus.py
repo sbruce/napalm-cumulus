@@ -35,7 +35,7 @@ from napalm.base.exceptions import (
 )
 from napalm.base.utils import string_parsers
 from netmiko import ConnectHandler
-from netmiko.ssh_exception import NetMikoTimeoutException
+from netmiko import NetmikoTimeoutException
 from pytz import timezone
 
 
